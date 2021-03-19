@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilo.css">
+    <title>meu primeiro programa</title>
+
+</head>
+<body> 
+
+    <h1>ola mundo</h1>
+    <p>aq esta</p>
+    <p>aprendenendo a usar o <strong>Dom</strong> em javasxript </p>
+   <div id="msg"> clique aqui</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName("p")[0] 
+
+      /*  var d = window.document.getElementById("msg")
+      d.style.background = "green"*/
+
+        var d = window.document.querySelector( "msg")
+        d.style.background = "blue"
+
+
+    </script>
+</body>
+</html>
