@@ -19,19 +19,23 @@
 </head>
 <body>
     
-    <div id="area"  oneclick="clicar()"   onmouseenter="entrar()" >
+    <div id="area"  onclick="clicar()"   onmouseenter="entrar()"  onmouseout="saiu()" >
          ola... 
 
     </div>
 <script>
+     var a = window.document.getElementById('area')
     function clicar(){
-        var a = window.document.getElementById('area')
+       
      a.innerText= 'clicou'
     }
     function entrar(){ 
-     a.innerText = 'entrou'
-    }
-
+     a.innerText = "entrou"
+    
+    }    
+    function saiu() {
+     a.innerText = "saiu"
+ }
 </script>
 
 </body>
