@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estilo.css">
+   <script src="script.js">  </script>
+   <title>Document</title>
+
+</head>
+<body>
+    <header>
+        <h1> verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p> ano de anacimento:
+             <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p> sexo:
+                <input type="radio" name="radsex" id="masc"    checked>
+                <label for="masc"></label> masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem"> feminino</label>
+            </p>
+        <p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </p>
+        </div>
+
+     <div id="res">
+            prencher os dados acima para verificar o resultado
+     </div>
+    </section>
+
+    <footer>
+        <p> &copy; vsc 2021</p>
+    </footer>
+</body>
+</html>
