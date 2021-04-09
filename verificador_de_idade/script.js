@@ -1,6 +1,7 @@
 function verificar() {
+
     var data = new Date()
-    var ano = data.getfullyear()
+    var ano = data.getFullYear()
     var fano = document.getElementById("txtano")
     var res = document.querySelector("div#res")
 
@@ -15,5 +16,6 @@ if(fano.value.length == 0 || fano.value > ano){
    }else if (fsex[1].checked){
        genero = "mulher"
    }
-   res.innerHTML = "detectamos "  +genero + "com" + idade + "anos";
+   res.innerHTML = "detectamos  "  +genero + " com " + idade + " anos";
+}
 }
