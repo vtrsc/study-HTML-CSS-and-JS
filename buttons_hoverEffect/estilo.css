@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body{
     margin: 0;
     padding: 0;
@@ -6,26 +7,19 @@ body{
     text-align: center;
     margin-top:  360px;
 }
-.btn{
-    border: 1px solid #3498db;
-    background: none;
+.btn1{
+    border: 1px solid #02090e;
+    background: rgba(3, 96, 218, 0.76);
     padding: 10px 20px;
     font-size: 20px;
-    font-family: "montserrat";
-    cursor: pointer;
-    margin: 10px;
-    transition: 0.8;
-    position: relative;
-    overflow: hidden;
+    transition:  ease-out 0.3s;
+    outline: none;
+  
 }
-.btn1, .btn2{
-    color:#3498db;
-}
-.btn3, .btn4 {
-    color: #fff;
-}
-.btn1:hover, .btn2:hover{
-    color: #3498db;
+.btn1:hover{
+    color:#d37509;
+    box-shadow:  inset 300px 0 0 0 #f9e506;
 }
 
 
+}

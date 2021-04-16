@@ -1,0 +1,25 @@
+body{
+    margin:0;
+
+}
+header {
+    color: white;
+    background-color: rgb(88, 121, 88);
+    height: 20px;
+    padding: 30px;
+
+}
+p{
+    font-family: 'Mr Dafoe', cursive;
+    color:#CFB53B ;
+    position: relative;
+}
+
+img{
+    position: fixed;
+    height:100%;
+width: 100%;
+}
+footer{
+    position: relative;
+}
