@@ -9,17 +9,26 @@ header {
     padding: 30px;
 
 }
+ header .nome {
+    float: right ;
+}
 p{
     font-family: 'Mr Dafoe', cursive;
-    color:#CFB53B ;
+    color: #CFB53B;
     position: relative;
 }
 
-img{
+img.fundo{
     position: fixed;
     height:100%;
 width: 100%;
 }
 footer{
     position: relative;
+}
+
+img.logo{
+width: 60px;
+height: 50px;
+margin: 15px
 }
