@@ -4,18 +4,24 @@ body{
 }
 header {
     color: white;
-    background-color: rgb(88, 121, 88);
+    background-color:blue;
     height: 20px;
     padding: 30px;
 
 }
- header .nome {
-    float: right ;
+ h1{
+  
+  position: absolute;
+    color: #CFB53B ;
+    display:  inline-block;
+    font-size: 15px;
+    margin-left: 227px;
+    
 }
 p{
     font-family: 'Mr Dafoe', cursive;
     color: #CFB53B;
-    position: relative;
+    position: absolute;
 }
 
 img.fundo{
@@ -23,12 +29,13 @@ img.fundo{
     height:100%;
 width: 100%;
 }
-footer{
-    position: relative;
-}
+
+ 
+
 
 img.logo{
 width: 60px;
-height: 50px;
-margin: 15px
+height: 50px; 
+
+
 }
