@@ -54,6 +54,9 @@ height: 50px;
 
  li {
     margin: 5px;
+    padding: 11px;
+    background-color: black;
+    border-radius: 50px;
 
 }
 li:hover {
