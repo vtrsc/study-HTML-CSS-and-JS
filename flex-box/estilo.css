@@ -1,0 +1,16 @@
+#content {
+background: #e7eef5;
+height:  500px;
+display: flex;
+flex-direction:row; /* row , row-reverse , column , column-reverse*/
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: stretch;
+}
+.item {
+height: 100px;
+width: 100px;
+color: black;
+background: white;
+margin: 5px;
+}
