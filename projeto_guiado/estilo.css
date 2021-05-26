@@ -1,5 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
 
+#cabecalho{
+    width: 150px;
+    background-color: #db1313;    
+    height: 150px;
 }
