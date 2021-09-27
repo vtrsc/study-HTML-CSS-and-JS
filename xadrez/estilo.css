@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tabuleiro{
+    width: 400px;
+    height: 400px;
+}
+div{
+    width: 2px;
+    height: 2px;
+    background-color: green;
+    border-color: grey;
+}
+.a1{
+    width: 60px;
+    height: 60px;
+    background-color: honeydew;
+}

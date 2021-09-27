@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EDEDED;
+}
+#menu{
+    
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+text-align: end;
+}
+#menu > li {
+    margin: 10px;
+    ;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: linear-gradient(0deg, #FF0055 0%, #000066 100%);
+   
+}
+li{
+    display: inline;
+    ;
+}
+section > .text{
+    display: flex;
+}
+#user{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    font-family: 'Damion', cursive;
+    text-align: center;
+    font-size: 100px;}
+footer{
+    height:100px;
+    width: 1050px;
+    background: linear-gradient(180deg, #FF0055 0%, #000066 100%);
+    
+}
+.midia > img {
+    width: 30px;
+    height: 20px;
+    align-items: center;
+   padding: 15px;
+   margin: 30px;
+
+}
+img{
+    width: 19px;
+}
+button{
+    background: linear-gradient(to right , #31d35c, #2bb7da);
+    border-radius: 50px;
+}
+.imagem{
+    width: 500px;
+    
+
+}
+.user2{
+width: 50px;
+border-radius: 50px;
+margin: 10px;
+
+}
+.comentarios{
+    display: flex;
+}
+.suporte > img{
+    background-color: #e7e7e7;
+    width: 30px;
+ display: inline-block;
+ padding: 10px;
+    justify-content: space-around;
+    margin: 90px;
+}
+@media (max-height: 600px ) and (max-width: 800px){
+    body{
+background-color: aqua;
+    }
+}

@@ -9,11 +9,19 @@
 <body>
     
     <script>
-        var altura = "";
-        var sexo = "";
-        for(var index = 0; index < 15; index++ ){
-            
+        var statusCarro = "desligado";
+    
+        var acelerar = "";
+        var frear = "";
+        function ligarDesligar (){
+        if(statusCarro === "desligado"){
+            statusCarro ="ligado";
+
+        }else if(statusCarro === "ligado"){
+            statusCarro = "desligado"
         }
+            
+    }
 
     </script>
 </body>
