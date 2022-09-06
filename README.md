@@ -1,2 +1,1 @@
-# dom
- treinando DOM 
+ Projetos apenas de estudo.
